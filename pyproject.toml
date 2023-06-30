@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "db-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["Pau Perez <saulopefa@gmail.com>"]
+readme = "README.md"
+packages = [{include = "db_tutorial"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dbt-postgres = "^1.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
